@@ -26,7 +26,7 @@ function AppFooter(props) {
 
   return (
     <Typography component="footer" className={classes.root}>
-      <LayoutBody className={classes.layoutBody} width="medium">
+      <LayoutBody className={classes.layoutBody} width="large">
         <Grid container spacing={40}>
           <Grid item xs={12} sm={6} md={4}>
             <Grid
@@ -36,44 +36,8 @@ function AppFooter(props) {
               className={classes.iconsWrapper}
               spacing={16}
             >
-              <Grid item className={classes.icons}>
-                <a href="https://facebook.com/dharmabot" className={classes.icon}>
-                  <img src="/img/facebook-icon.png" alt="Facebook" className={classes.iconImg} />
-                </a>
-                <a href="https://m.me/dharmabot" className={classes.icon}>
-                  <img src="/img/message-icon.png" alt="Messenger" className={classes.iconImg} />
-                </a>
-              </Grid>
-              <Grid item>© 2018 Dharma Bot</Grid>
+              <Grid item>© 2018 Learn How To Meditate</Grid>
             </Grid>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Typography variant="h6" marked="left" gutterBottom>
-              Legal
-            </Typography>
-            <ul className={classes.list}>
-              <li className={classes.listItem}>
-                <NavLink to={process.env.PUBLIC_URL + "/privacy-policy"}>Privacy</NavLink>
-              </li>
-            </ul>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Typography variant="h6" marked="left" gutterBottom>
-              Language
-            </Typography>
-            <TextField
-              select
-              SelectProps={{
-                native: true
-              }}
-              className={classes.language}
-            >
-              {LANGUAGES.map((language) => (
-                <option value={language.code} key={language.code}>
-                  {language.name}
-                </option>
-              ))}
-            </TextField>
           </Grid>
         </Grid>
       </LayoutBody>

@@ -1,8 +1,8 @@
 {
-  "name": "dharma-bot.com",
+  "name": "berlin-meditation.club",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dharma-bot.com",
+  "homepage": "https://berlin-meditation.club",
   "author": {
     "name": "Nicolas Pettican",
     "email": "nicolaspettican@gmail.com",
@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nickpettican/dharma-bot-homepage.git"
+    "url": "https://github.com/nickpettican/berlin-meditation-club.git"
   },
-  "bugs": "https://github.com/nickpettican/dharma-bot-homepage/issues",
+  "bugs": "https://github.com/nickpettican/berlin-meditation-club/issues",
   "engines": {
     "node": "10.14.1",
     "yarn": "1.12.3"

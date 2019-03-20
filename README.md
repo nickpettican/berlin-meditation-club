@@ -1,10 +1,10 @@
-# Dharma-Bot.com
+# Berlin-Meditation.club
 
-<a href="https://m.me/dharmabot"><img src="https://www.nicolaspettican.com/css/img/dharmabot.png" title="Dharmabot logo" alt="Dharmabot logo" width="30%"></a>
+<a href="https://m.me/dharmabot"><img src="https://www.nicolaspettican.com/css/img/dharmabot-logo-v2-round.png" title="Dharmabot logo" alt="Dharmabot logo" width="30%"></a>
 
-## [Live](http://dharma-bot.com)
+## [Live](http://berlin-meditation.club)
 
-A bootstrapped website for Dharma Bot.
+A bootstrapped website for the Berlin meditation class schedule.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -26,11 +26,11 @@ It is recommended to use this version for an optimal build. To manage your Node 
 
 **Step 1** - clone the repo
 
-    $ git clone https://github.com/nickpettican/dharma-bot-homepage.git
+    $ git clone https://github.com/nickpettican/berlin-meditation-club.git
 
 **Step 2** - cd in the repo
 
-    $ cd dharma-bot-homepage
+    $ cd berlin-meditation-club
 
 **Step 3** - install dependencies
 

@@ -17,7 +17,7 @@ function ProductSmokingHero(props) {
           underline="none"
           color="inherit"
           className={classes.title}
-          href="https://github.com/nickpettican/dharma-bot-homepage"
+          href="https://github.com/nickpettican/berlin-meditation-club"
         >
           <Typography variant="h4" component="span">
             This homepage is still in development

@@ -20,7 +20,7 @@ function AppAppBar(props) {
             style={{ textDecoration: "none", color: "#f6fafa" }}
           >
             <Link variant="h6" underline="none" color="inherit" className={classes.title} href="/">
-              {"Dharma Bot"}
+              {"Learn how to meditate"}
             </Link>
           </NavLink>
           <div className={classes.right}>

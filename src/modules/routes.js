@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 
 // scenes
 import Home from "../scenes/Home";
-import PrivacyPolicy from "../scenes/PrivacyPolicy";
 import Contact from "../scenes/Contact";
 
 // components
@@ -18,11 +17,6 @@ export default (props) => {
     <Switch>
       <AppliedRoute path={process.env.PUBLIC_URL + "/"} exact component={Home} />
       <AppliedRoute path={process.env.PUBLIC_URL + "/contact"} exact component={Contact} />
-      <AppliedRoute
-        path={process.env.PUBLIC_URL + "/privacy-policy"}
-        exact
-        component={PrivacyPolicy}
-      />
       {/* Finally, catch all unmatched routes */}
       <Route component={Home} />
     </Switch>

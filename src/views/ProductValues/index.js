@@ -26,12 +26,9 @@ function ProductValues(props) {
                 alt=""
               />
               <Typography variant="h6" className={classes.title}>
-                Easy and fun
+                The basics
               </Typography>
-              <Typography variant="h5">
-                {"Subscribe in just a few steps in a fun and interactive way. "}
-                {"You are in control of what you receive and when you receive it."}
-              </Typography>
+              <Typography variant="h5">{"Lorem"}</Typography>
             </div>
           </Grid>
           <Grid item xs={12} md={4}>
@@ -42,12 +39,9 @@ function ProductValues(props) {
                 alt=""
               />
               <Typography variant="h6" className={classes.title}>
-                The best quotes
+                Different meditation styles
               </Typography>
-              <Typography variant="h5">
-                {"Dharma Bot provides you with curated and inspiring quotes "}
-                {"from various teachers, Buddhas and Boddhisattvas."}
-              </Typography>
+              <Typography variant="h5">{"Ipsum."}</Typography>
             </div>
           </Grid>
           <Grid item xs={12} md={4}>
@@ -58,12 +52,9 @@ function ProductValues(props) {
                 alt=""
               />
               <Typography variant="h6" className={classes.title}>
-                Reminders and updates
+                Actionable takeaways
               </Typography>
-              <Typography variant="h5">
-                {"Get reminded of the most important days in the Tibetan Buddhist calendar. "}
-                {"Dharma Bot will remind you automatically and even give you more information."}
-              </Typography>
+              <Typography variant="h5">{"Vegi"}</Typography>
             </div>
           </Grid>
         </Grid>

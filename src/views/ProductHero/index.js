@@ -15,8 +15,8 @@ function ProductHero(props) {
       {/* Increase the network loading priority of the background image. */}
       <img style={{ display: "none" }} src={backgroundImage} alt="" />
       <br />
-      <Typography color="inherit" align="center" variant="h3" marked="center">
-        The Interactive Buddhist Calendar
+      <Typography color="inherit" align="center" variant="h2" marked="center">
+        Learn how to meditate
       </Typography>
       <Typography
         color="inherit"
@@ -24,8 +24,9 @@ function ProductHero(props) {
         variant="h5"
         className={[classes.h5, classes.subHeading]}
       >
-        Receive inspirational Dharma quotes directly in your Messenger inbox along with timely
-        reminders of important Buddhist holidays and the anniversaries of Sakya teachers.
+        What is your goal? The desire to develop relaxation, happiness, emotional intelligence, love
+        and compassion? Or the search for more meaning and satisfaction in life? Meditation and
+        Buddhist philosophy can give valuable and effective insights into these topics.
       </Typography>
       <Button
         color="secondary"
@@ -36,7 +37,7 @@ function ProductHero(props) {
           <Link {...linkProps} href="https://m.me/dharmabot" variant="button" />
         )}
       >
-        Chat now
+        Sign up
       </Button>
       <Typography variant="body2" color="inherit" className={classes.more}>
         Learn more
