@@ -8,7 +8,8 @@ export default (theme) => ({
     marginTop: theme.spacing.unit * 15,
     marginBottom: theme.spacing.unit * 30,
     display: "flex",
-    position: "relative"
+    position: "relative",
+    flexDirection: "column"
   },
   item: {
     display: "flex",
@@ -21,7 +22,8 @@ export default (theme) => ({
   },
   title: {
     marginTop: theme.spacing.unit * 5,
-    marginBottom: theme.spacing.unit * 5
+    marginBottom: theme.spacing.unit * 10,
+    textAlign: "center"
   },
   curvyLines: {
     pointerEvents: "none",

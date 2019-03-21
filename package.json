@@ -20,8 +20,10 @@
   "dependencies": {
     "@material-ui/core": "^3.9.2",
     "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
+    "moment": "^2.24.0",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-https-redirect": "^1.1.0",
@@ -34,7 +36,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "react-scripts start",
-    "build": "react-scripts build && cp build/index.html build/privacy-policy.html",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gh-deploy": "gh-pages -d build",

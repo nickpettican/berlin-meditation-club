@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import Link from "@material-ui/core/Link";
 import AppBar from "../../components/AppBar";
 import Toolbar from "../../components/Toolbar";
+import Typography from "../../components/Typography";
 import styles from "./styles";
 
 function AppAppBar(props) {
@@ -19,24 +20,23 @@ function AppAppBar(props) {
             to={process.env.PUBLIC_URL + "/"}
             style={{ textDecoration: "none", color: "#f6fafa" }}
           >
-            <Link variant="h6" underline="none" color="inherit" className={classes.title} href="/">
-              {"Learn how to meditate"}
-            </Link>
+            <Typography variant="h6" underline="none" color="inherit" className={classes.title}>
+              {"Learn meditation"}
+            </Typography>
           </NavLink>
           <div className={classes.right}>
             <NavLink
               to={process.env.PUBLIC_URL + "/contact"}
               style={{ textDecoration: "none", color: "#f6fafa" }}
             >
-              <Link
+              <Typography
                 color="inherit"
                 variant="h6"
                 underline="none"
                 className={classes.rightLink}
-                href="#"
               >
                 {"Contact"}
-              </Link>
+              </Typography>
             </NavLink>
           </div>
         </Toolbar>

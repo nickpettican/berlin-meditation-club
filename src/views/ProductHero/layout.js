@@ -12,7 +12,6 @@ function ProductHeroLayout(props) {
   return (
     <section className={classes.root}>
       <LayoutBody className={classes.layoutBody} width="full">
-        <img src="/img/dharmabot-logo-round.png" alt="wonder" width="147" height="147" />
         {children}
         <div className={classes.backdrop} />
         <div className={classNames(classes.background, backgroundClassName)} />

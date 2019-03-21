@@ -28,7 +28,7 @@ function AppFooter(props) {
     <Typography component="footer" className={classes.root}>
       <LayoutBody className={classes.layoutBody} width="large">
         <Grid container spacing={40}>
-          <Grid item xs={12} sm={6} md={4}>
+          <Grid item xs={12} sm={12} md={12}>
             <Grid
               container
               direction="column"
@@ -36,7 +36,9 @@ function AppFooter(props) {
               className={classes.iconsWrapper}
               spacing={16}
             >
-              <Grid item>© 2018 Learn How To Meditate</Grid>
+              <Grid style={{ textAlign: "center" }} item>
+                © 2018 Learn How To Meditate
+              </Grid>
             </Grid>
           </Grid>
         </Grid>

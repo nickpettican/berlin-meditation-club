@@ -1,4 +1,4 @@
-export const backgroundImage = "/img/cover-empty.png";
+export const backgroundImage = "/img/morning-meditation-bg.png";
 
 export const layout = (theme) => ({
   root: {
@@ -29,7 +29,7 @@ export const layout = (theme) => ({
     top: 0,
     bottom: 0,
     backgroundColor: theme.palette.common.black,
-    opacity: 0.5,
+    opacity: 0.3,
     zIndex: -1
   },
   background: {

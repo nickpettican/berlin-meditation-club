@@ -1,4 +1,5 @@
 import React from "react";
+import classNames from "classnames";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import Link from "@material-ui/core/Link";
@@ -15,14 +16,14 @@ function ProductHero(props) {
       {/* Increase the network loading priority of the background image. */}
       <img style={{ display: "none" }} src={backgroundImage} alt="" />
       <br />
-      <Typography color="inherit" align="center" variant="h2" marked="center">
+      <Typography color="inherit" align="center" variant="h2" marked="center" component="h1">
         Learn how to meditate
       </Typography>
       <Typography
         color="inherit"
         align="center"
         variant="h5"
-        className={[classes.h5, classes.subHeading]}
+        className={classNames({ [classes.h5]: true, [classes.subHeading]: true })}
       >
         What is your goal? The desire to develop relaxation, happiness, emotional intelligence, love
         and compassion? Or the search for more meaning and satisfaction in life? Meditation and

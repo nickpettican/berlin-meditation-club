@@ -17,47 +17,52 @@ function ProductValues(props) {
           className={classes.curvyLines}
           alt="curvy lines"
         />
-        <Grid container spacing={40}>
-          <Grid item xs={12} md={4}>
-            <div className={classes.item}>
-              <img
-                className={classes.image}
-                src="/static/themes/onepirate/productValues1.svg"
-                alt=""
-              />
-              <Typography variant="h6" className={classes.title}>
-                The basics
-              </Typography>
-              <Typography variant="h5">{"Lorem"}</Typography>
-            </div>
+        <Typography variant="h4" marked="center" className={classes.title} component="h2">
+          Exclusive to Space Shack Coworking
+        </Typography>
+        <div>
+          <Grid container spacing={40}>
+            <Grid item xs={12} md={4}>
+              <div className={classes.item}>
+                <img
+                  className={classes.image}
+                  src="/static/themes/onepirate/productValues1.svg"
+                  alt=""
+                />
+                <Typography variant="h6" className={classes.title}>
+                  How to start - the basics
+                </Typography>
+                <Typography variant="h5">{"Lorem"}</Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <div className={classes.item}>
+                <img
+                  className={classes.image}
+                  src="/static/themes/onepirate/productValues2.svg"
+                  alt=""
+                />
+                <Typography variant="h6" className={classes.title}>
+                  Different meditation types
+                </Typography>
+                <Typography variant="h5">{"Ipsum."}</Typography>
+              </div>
+            </Grid>
+            <Grid item xs={12} md={4}>
+              <div className={classes.item}>
+                <img
+                  className={classes.image}
+                  src="/static/themes/onepirate/productValues3.svg"
+                  alt=""
+                />
+                <Typography variant="h6" className={classes.title}>
+                  Practical, simple meditations
+                </Typography>
+                <Typography variant="h5">{"Vegi"}</Typography>
+              </div>
+            </Grid>
           </Grid>
-          <Grid item xs={12} md={4}>
-            <div className={classes.item}>
-              <img
-                className={classes.image}
-                src="/static/themes/onepirate/productValues2.svg"
-                alt=""
-              />
-              <Typography variant="h6" className={classes.title}>
-                Different meditation styles
-              </Typography>
-              <Typography variant="h5">{"Ipsum."}</Typography>
-            </div>
-          </Grid>
-          <Grid item xs={12} md={4}>
-            <div className={classes.item}>
-              <img
-                className={classes.image}
-                src="/static/themes/onepirate/productValues3.svg"
-                alt=""
-              />
-              <Typography variant="h6" className={classes.title}>
-                Actionable takeaways
-              </Typography>
-              <Typography variant="h5">{"Vegi"}</Typography>
-            </div>
-          </Grid>
-        </Grid>
+        </div>
       </LayoutBody>
     </section>
   );
