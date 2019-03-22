@@ -7,19 +7,7 @@ import Grid from "@material-ui/core/Grid";
 import { NavLink } from "react-router-dom";
 import LayoutBody from "../../components/LayoutBody";
 import Typography from "../../components/Typography";
-import TextField from "../../components/TextField";
 import styles from "./styles";
-
-const LANGUAGES = [
-  {
-    code: "en-US",
-    name: "English"
-  },
-  {
-    code: "es-ES",
-    name: "Español"
-  }
-];
 
 function AppFooter(props) {
   const { classes } = props;

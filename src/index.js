@@ -1,21 +1,17 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import HttpsRedirect from "react-https-redirect";
-import { Provider } from "react-redux";
 import { BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
-import store from "./store";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-  <Provider store={store}>
-    <HttpsRedirect>
-      <Router basename={process.env.PUBLIC_URL}>
-        <App />
-      </Router>
-    </HttpsRedirect>
-  </Provider>,
+  <HttpsRedirect>
+    <Router basename={process.env.PUBLIC_URL}>
+      <App />
+    </Router>
+  </HttpsRedirect>,
   document.getElementById("root")
 );
 

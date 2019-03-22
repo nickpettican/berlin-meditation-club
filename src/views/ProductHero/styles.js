@@ -6,6 +6,8 @@ export const layout = (theme) => ({
     position: "relative",
     display: "flex",
     alignItems: "center",
+    minHeight: 500,
+    // height: "100vh",
     [theme.breakpoints.up("sm")]: {
       height: "85vh",
       minHeight: 500,

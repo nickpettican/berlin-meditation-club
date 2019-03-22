@@ -10,7 +10,9 @@ export default (theme) => ({
     border: "4px solid currentColor",
     borderRadius: 0,
     height: "auto",
-    padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 5}px`
+    [theme.breakpoints.up("sm")]: {
+      padding: `${theme.spacing.unit * 2}px ${theme.spacing.unit * 5}px`
+    }
   },
   link: {
     marginTop: theme.spacing.unit * 3,

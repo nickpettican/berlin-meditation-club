@@ -12,11 +12,6 @@ function ProductValues(props) {
   return (
     <section className={classes.root}>
       <LayoutBody className={classes.layoutBody} width="large">
-        <img
-          src="/static/themes/onepirate/productCurvyLines.png"
-          className={classes.curvyLines}
-          alt="curvy lines"
-        />
         <Typography variant="h4" marked="center" className={classes.title} component="h2">
           Exclusive to Space Shack Coworking
         </Typography>

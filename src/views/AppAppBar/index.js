@@ -2,7 +2,6 @@ import React from "react";
 import PropTypes from "prop-types";
 import { withStyles } from "@material-ui/core/styles";
 import { NavLink } from "react-router-dom";
-import Link from "@material-ui/core/Link";
 import AppBar from "../../components/AppBar";
 import Toolbar from "../../components/Toolbar";
 import Typography from "../../components/Typography";

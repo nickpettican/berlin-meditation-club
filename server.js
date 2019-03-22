@@ -5,9 +5,9 @@ const path = require("path");
 const cors = require("cors");
 
 const app = express();
-const port = process.env.PORT || 5000; // ⚠️ if changing, make sure to change on src/actions/getEvents
+const port = process.env.PORT || 5000;
 
-const server = app.listen(port, err => {
+const server = app.listen(port, (err) => {
   if (err) {
     console.error("Webserver error listening on port: ", port);
     return process.exit();

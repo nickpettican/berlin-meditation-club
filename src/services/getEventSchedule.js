@@ -1,5 +1,4 @@
 import axios from "axios";
-require("dotenv").config();
 
 const defaultReturn = { upcomingEvents: [], pastEvents: [] };
 
@@ -73,7 +72,9 @@ const splitEventsByTime = (entries) => {
   }
 };
 
-const getEventSchedule = async (url = process.env.SHEETS_URL) => {
+const getEventSchedule = async (
+  url = "https://spreadsheets.google.com/feeds/cells/1PpFJ6ybuzN7VO3SLK-VxhwITiSUIvkLL6lqGDVZYPDA/1/public/full?alt=json"
+) => {
   let sheetData = await getEventScheduleFromGoogleSheet(url);
   if (sheetData.length) {
     let table = await parseSheetData(sheetData);

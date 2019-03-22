@@ -7,12 +7,14 @@ import ProductHero from "../../views/ProductHero";
 import ProductValues from "../../views/ProductValues";
 import ProductSmokingHero from "../../views/ProductSmokingHero";
 import AppAppBar from "../../views/AppAppBar";
+import UpcomingEvents from "../../views/UpcomingEvents";
 
 function Index() {
   return (
     <React.Fragment>
       <AppAppBar />
       <ProductHero />
+      <UpcomingEvents />
       <ProductValues />
       <ProductSmokingHero />
       <AppFooter />
