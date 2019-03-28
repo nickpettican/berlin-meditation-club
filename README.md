@@ -1,7 +1,5 @@
 # Berlin-Meditation.club
 
-<a href="https://m.me/dharmabot"><img src="https://www.nicolaspettican.com/css/img/dharmabot-logo-v2-round.png" title="Dharmabot logo" alt="Dharmabot logo" width="30%"></a>
-
 ## [Live](http://berlin-meditation.club)
 
 A bootstrapped website for the Berlin meditation class schedule.
@@ -55,8 +53,7 @@ or
 ## Main features
 
 -   [x] Information about Dharma Bot
--   [ ] Conversation bubble to talk to Dharma Bot
--   [ ] Sleek UI
+-   [x] Sleek UI
 -   [ ] Service Worker
 -   [ ] Offline access
 
