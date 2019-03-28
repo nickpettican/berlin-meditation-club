@@ -12,11 +12,10 @@ function Privacy() {
       <AppAppBar />
       <LayoutBody margin marginBottom>
         <iframe
-          style={{ width: "100%", margin: "auto" }}
           title="Contact form"
-          src="https://docs.google.com/forms/d/e/1FAIpQLScNlYaFAqZCRXRaYbbvsTLqyfaiT3Ndp9-k26ipixK_y1NUAw/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSdCpNMmub0dQGd4BFjBupp0X2rlNhfv4yjq0T08DRN89P_aow/viewform?embedded=true"
           width="640"
-          height="962"
+          height="822"
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"

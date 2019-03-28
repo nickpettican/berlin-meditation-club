@@ -35,7 +35,7 @@ function ProductHero(props) {
         size="medium"
         className={classes.button}
         component={(linkProps) => (
-          <Link {...linkProps} href="https://m.me/dharmabot" variant="button" />
+          <Link {...linkProps} href="https://goo.gl/forms/28kOvBDzaoUP1gAx2" variant="button" />
         )}
       >
         Sign up

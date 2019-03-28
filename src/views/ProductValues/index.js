@@ -27,7 +27,7 @@ function ProductValues(props) {
                 <Typography variant="h6" className={classes.title}>
                   How to start - the basics
                 </Typography>
-                <Typography variant="h5">{"Lorem"}</Typography>
+                {/* <Typography variant="h5">{"Lorem"}</Typography> */}
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -38,9 +38,9 @@ function ProductValues(props) {
                   alt=""
                 />
                 <Typography variant="h6" className={classes.title}>
-                  Different meditation types
+                  Learn different meditation types
                 </Typography>
-                <Typography variant="h5">{"Ipsum."}</Typography>
+                {/* <Typography variant="h5">{"Ipsum."}</Typography> */}
               </div>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -51,9 +51,9 @@ function ProductValues(props) {
                   alt=""
                 />
                 <Typography variant="h6" className={classes.title}>
-                  Practical, simple meditations
+                  Practical, simple meditations for modern day life
                 </Typography>
-                <Typography variant="h5">{"Vegi"}</Typography>
+                {/* <Typography variant="h5">{"Vegi"}</Typography> */}
               </div>
             </Grid>
           </Grid>

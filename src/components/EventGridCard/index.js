@@ -33,7 +33,7 @@ const EventGridCard = ({
   PhotoUrl = "/img/morning-meditation-default-picture.png"
 }) => {
   let eventTimeStart = moment(Timestamp);
-  let eventTimeEnd = moment(Timestamp + 45 * 60 * 60 * 1000);
+  let eventTimeEnd = moment(Timestamp + 45 * 60 * 1000);
   return (
     <Grid item xs={12} sm={6} md={4} lg={4}>
       <Card className={classes.card}>

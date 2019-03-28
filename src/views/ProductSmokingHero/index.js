@@ -20,7 +20,7 @@ function ProductSmokingHero(props) {
           href="https://github.com/nickpettican/berlin-meditation-club"
         >
           <Typography variant="h4" component="span">
-            This homepage is still in development
+            This website is still in development
           </Typography>
         </Link>
       </Button>
